@@ -20,6 +20,11 @@ export default defineConfig(({ mode }) => {
       vue()
     ],
     base: env.VITE_APP_BASE,
+    build: {
+      outDir: 'docs',
+      assetsDir: 'assets',
+      assetsInlineLimit: 4096
+    },
     resolve: {
       alias: {
         "@": path.resolve(__dirname, 'src/')
