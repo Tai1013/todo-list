@@ -10,6 +10,7 @@ export default {
   ],
   theme: {
     colors: {
+      transparent: colors.transparent,
       black: colors.black,
       white: colors.white,
       grey: '#EBEBEB',

@@ -1,0 +1,10 @@
+html,
+body,
+#app,
+.outline-box {
+  @apply h-full min-w-80;
+}
+
+.btn {
+  @apply px-3.5 py-2 flex justify-center items-center rounded-md text-black bg-primary-1 hover:bg-primary-3 disabled:text-grey disabled:bg-primary-1 disabled:cursor-not-allowed;
+}

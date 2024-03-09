@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.1.1",
+    "dayjs": "^1.11.9",
+    "pinia": "^2.1.7",
     "vue": "^3.4.19"
   },
   "devDependencies": {
     "@types/node": "^20.11.25",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/language-plugin-pug": "^2.0.6",
+    "@vue/language-plugin-pug": "^1.8.27",
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
     "pug": "^3.0.2",
