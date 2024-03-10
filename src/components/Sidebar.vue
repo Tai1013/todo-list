@@ -35,7 +35,7 @@ onMounted(async () => {
       )
         span {{ index + 1 }}. {{ template.title }}
     .sidebar-add
-      button.btn(@click="add()") Add Item
+      button.btn(:disabled="templates.length === 10" @click="add()") Add Item
   div
     .sidebar-image
       button(@click="getImage")
