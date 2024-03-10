@@ -44,7 +44,7 @@ onMounted(async () => {
 
 <style scoped lang="scss">
 .sidebar {
-  @apply flex flex-col justify-between text-black bg-primary-2 w-60 h-full;
+  @apply flex flex-col justify-between text-black bg-primary-2 w-60 h-full overflow-y-auto;
 
   > div > div {
     @apply py-4;
